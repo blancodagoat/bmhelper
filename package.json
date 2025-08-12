@@ -1,0 +1,27 @@
+{
+  "name": "modding_bot",
+  "version": "1.0.0",
+  "description": "Discord moderation bot with tickets, purge, and panel commands",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "tickets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  }
+}
